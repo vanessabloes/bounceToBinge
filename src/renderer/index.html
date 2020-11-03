@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Arduino</title>
+</head>
+
+<body>
+  <h1><span class="hidden">Logo Bounce 2 Binge</span></h1>
+
+  <img class="logo" srcset="./netflix.png 460w" sizes="75vw" alt="Logo">
+
+  <div class="film">
+    <p class="film__text">Kies je film of serie:</p>
+    <button class="btn hidden">Terug naar alle opties</button>
+  </div>
+
+  <div class="filmcontainer">
+    <div class="filmwrapper">
+      <img src="./pulp.jpg" alt="foto van pulp fiction" height="100">
+      <a id="pulp" class="btn__link" href="#" name="Pulp Fiction">Pulp Fiction - Quentin Tarantino</a>
+    </div>
+    <div class="filmwrapper">
+      <img src="./old.jpg" alt="foto van no country for old men" width="150" height="100">
+      <a id="country" class="btn__link" href="#" name="No country for old men">No country for old men - The Coen
+        Brothers</a>
+    </div>
+    <div class="filmwrapper">
+      <img src="./friends.jpeg" alt="foto van friends" height="100">
+      <a id="friends" class="btn__link" href="#" name="Friends">Friends</a>
+    </div>
+    <div class="filmwrapper">
+      <img src="./stranger.jpg" alt="foto van stranger things" height="100">
+      <a id="stranger" class="btn__link" href="#" name="Stranger Things">Stranger Things</a>
+    </div>
+  </div>
+
+
+
+  <p class="result hidden"></p>
+  <div class="springwrapper hidden">
+    <p class="spring"></p>
+    <p class="springstatus"></p>
+  </div>
+  <p class="counter hidden"></p>
+
+  <div class="watchwrapper">
+    <div class="vids">
+      <video id="pulp__vid" class="hidden" src="./hamburgers-scene-pulp-fiction-hd.mp4" width="1000" height="800">
+      </video>
+      <video id="country__vid" class="hidden" src="./the-most-intense-scene-in-cinema-history.mp4" width="1000"
+        height="800"></video>
+      <video id="friends__vid" class="hidden" src="./friends-about-the-erogenous-zones-of-women.mp4" width="1000"
+        height="800"></video>
+      <video id="stranger__vid" class="hidden"
+        src="./stranger-things-se3-e08-neverending-story-official-clip-new-2019-netflix-hd.mp4" width="1000"
+        height="800"></video>
+    </div>
+    <div class="levels hidden">
+      <p><span class="gewicht"></span> kilo minder aangekomen!</p>
+      <p><span class="dokter"></span> doktersbezoeken minder!</p>
+      <p><span class="geluk"></span> gelukscellen meer in je hersenen!</p>
+      <p>€ <span class="geld"></span> uitgespaard aan medicatie!</p>
+      <p>Levensverwachting verhoogd met <span class="leven"></span> dagen!</p>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

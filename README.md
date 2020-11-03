@@ -45,3 +45,7 @@ yarn dist
 yarn dist:dir
 ```
 # bounceToBinge
+
+Let me introduce to you: Bounce 2 Binge! An interactive installation that requires users to jump on a trampoline in order to bingewatch series and movies.
+
+This is build with an Arduino Uno Proximity sensor (hr-sc04), with johnny5 and electron as webpack.

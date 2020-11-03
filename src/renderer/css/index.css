@@ -1,0 +1,87 @@
+/* test */
+
+body {
+  font-size: 2rem;
+  background-color: #a42319;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  background-color: white;
+  border: transparent;
+  border: .1rem solid black;
+  color: black;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: .15rem;
+  margin-left: 2rem;
+  font-size: 1.6rem;
+}
+
+.springstatus {
+  height: 3rem;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 2rem;
+}
+
+.btn__link {
+  background-color: black;
+  border: transparent;
+  color: white;
+  font-weight: bold;
+  padding: 1rem 3rem;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: .15rem;
+}
+
+.filmwrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+
+.logo {
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+.film__text {
+  margin-left: 3rem;
+}
+
+.film {
+  display: flex;
+  align-items: center;
+}
+
+.spring {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+
+.watchwrapper {
+  display: flex;
+  margin-top: -10rem;
+  align-items: center;
+}
+
+.levels {
+  margin-top: -.5rem;
+  padding-left: 1rem;
+  background-color: black;
+  color: white;
+}
+
+.levels span {
+  color: #a42319;
+}
